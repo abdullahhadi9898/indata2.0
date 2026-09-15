@@ -4,41 +4,27 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Build and distribution artifacts
-dist/
-build/
-*.egg-info/
-
-# Virtual environments
-venv/
 .venv/
+venv/
 .env
 .env.local
 *.env.*
 
+# Data files (if they are large/generated)
+data/*.csv
+data/*.json
+
 # Logs
 *.log
 
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# IDE specific
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.tmp
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-```node_modules/
-.next/
-node_modules/
+```
